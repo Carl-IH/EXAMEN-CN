@@ -7,7 +7,7 @@ def primo_test(valor):
         return False #SI EL VALOR SE PUEDE DIVIDIR SOBRE 2 O 3 SE ELIMINA
     i = 5
     while i * i <= valor:
-        print(i)
+        #print(i)
         if valor % i == 0 or valor % (i + 2) == 0:
             return False
         i += 6
