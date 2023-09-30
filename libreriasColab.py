@@ -25,7 +25,7 @@ def nextPrime(valor):
 
 def median(valores):
     valoresOrden = sorted(valores, reverse=True)
-    print(valoresOrden)
+    #print(valoresOrden)
     print('La mediana de tus valores es ', valoresOrden[1])
     
 
@@ -46,41 +46,3 @@ def hipo(a,b):
     raizContenido = (a*a) + (b*b)
     c = raiz(raizContenido)
     print('la hipotenusa del triángulo es ',c,'u{}'.format(chr(178)))
-
-
-
-print('')
-
-#randomPasword()
-
-
-
-
-#a = int(input('escribe el valor numerico del primer lado del triángulo: '))
-#b = int(input('escribe el valor numerico del segundo lado del triángulo: '))
-
-#resultado = hipo(a,b)
-
-
-
-#valores=[]
-#for i in range(3):
- #   valores.append(int(input("Escribe un valor numerico: ")))
-
-#print(valores)
-#mediana = median(valores)
-
-# Ejemplo de uso:
-#valor = int(input('¿Que valor desea consultar? '))
-
-
-
-#resultado = primo_test(valor)
-#print(resultado)
-#if resultado:
- #   print(valor," es un numero primo y su siguiente numeroprimero es ",numero)
-#else:
- #   print(valor," no es un numero primo")
-
-#resultado = nextPrime(valor)
-#print(" El siguiente numero primo a tu consulta es",resultado)
